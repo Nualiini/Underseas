@@ -6,7 +6,7 @@ if not place_meeting(x,y+accel,collisions) {
 } else {
 	accel=0
 }
-if keyboard_check(ord("A")) or keyboard_check(ord("DA")) {
+if keyboard_check(ord("A")) or keyboard_check(ord("D")) {
 	image_speed = 2
 } else {
 	image_speed = 0
