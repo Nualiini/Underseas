@@ -1,4 +1,4 @@
-if not place_meeting(x,y+accel,collisions) and not place_meeting(feet.x,feet.y,platforms)  {
+if not place_meeting(x,y+accel,collisions)   {
 		y+=accel
 	onground = false
 	if accel < 20{
@@ -40,6 +40,7 @@ if keyboard_check_pressed(ord("1"))
 	spd = 0
 	alarm[1] = 34
 	instance_create_layer(self.x,self.y,"instances",BubleSpell)
+	instance_create_layer(self.x,self.y,"instances",shake)
 }
 
 // BubleSpell pose
