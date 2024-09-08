@@ -41,11 +41,12 @@ if dead && flash < 1 {
 		var _bubble = instance_create_layer(x,y,"Instances",bubble)
 		_bubble.depth = self.depth + 1
 		instance_destroy()
+
+	
+}
 		repeat 5 {
 instance_create_layer(x,y,"Instances",ivikireM)
 		}
-	
-}
 }
 if dead && flash > 0 {
 	repeat 5{

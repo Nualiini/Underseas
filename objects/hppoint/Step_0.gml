@@ -1,2 +1,5 @@
-x = camera.x - 240
-y = camera.y - 161
+
+var cam_x = camera_get_view_x(view_camera[0]);
+var cam_y = camera_get_view_y(view_camera[0]);
+x = cam_x + 10
+y = cam_y + 10
