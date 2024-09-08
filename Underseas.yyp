@@ -76,6 +76,8 @@
     {"id":{"name":"seablock_spr_bg","path":"sprites/seablock_spr_bg/seablock_spr_bg.yy",},},
     {"id":{"name":"seablock_spr","path":"sprites/seablock_spr/seablock_spr.yy",},},
     {"id":{"name":"seaplatform_spr","path":"sprites/seaplatform_spr/seaplatform_spr.yy",},},
+    {"id":{"name":"shooterCrabCannon_spr","path":"sprites/shooterCrabCannon_spr/shooterCrabCannon_spr.yy",},},
+    {"id":{"name":"shootingCrab_spr","path":"sprites/shootingCrab_spr/shootingCrab_spr.yy",},},
     {"id":{"name":"tree_spr","path":"sprites/tree_spr/tree_spr.yy",},},
     {"id":{"name":"VineTree_spr","path":"sprites/VineTree_spr/VineTree_spr.yy",},},
   ],
