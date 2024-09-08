@@ -65,3 +65,4 @@ if place_meeting(x,y,onedamages) && iframes < 1 {
 	instance_create_layer(x,y,"Instances",shake)
 	iframes = 20
 }
+if iframes > 0 {iframes--}
