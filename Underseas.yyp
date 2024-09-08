@@ -52,6 +52,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"attack_spr","path":"sprites/attack_spr/attack_spr.yy",},},
     {"id":{"name":"bubble_spr","path":"sprites/bubble_spr/bubble_spr.yy",},},
+    {"id":{"name":"BubleSpell","path":"sprites/BubleSpell/BubleSpell.yy",},},
     {"id":{"name":"coral_spr","path":"sprites/coral_spr/coral_spr.yy",},},
     {"id":{"name":"crab_spr","path":"sprites/crab_spr/crab_spr.yy",},},
     {"id":{"name":"darkness_spr","path":"sprites/darkness_spr/darkness_spr.yy",},},
