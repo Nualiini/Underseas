@@ -4,7 +4,7 @@ shakefx = layer_get_fx("ShakeLayer");
 sprite_index = plr_spr
 fx_set_parameter(shakefx, "g_Magnitude", 0);
 fx_set_parameter(shakefx, "g_ShakeSpeed",0);
-
+platforms = [seaplatform]
 collisions = [seablock]
 onedamages = [crab]
 spd = 3
