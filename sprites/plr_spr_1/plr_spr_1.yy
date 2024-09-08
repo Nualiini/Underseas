@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"plr_spr_1",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":32,
   "bbox_left":10,
   "bbox_right":22,
