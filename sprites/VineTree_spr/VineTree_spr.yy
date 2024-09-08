@@ -3,7 +3,7 @@
   "%Name":"VineTree_spr",
   "bboxMode":0,
   "bbox_bottom":63,
-  "bbox_left":9,
+  "bbox_left":8,
   "bbox_right":27,
   "bbox_top":2,
   "collisionKind":1,
