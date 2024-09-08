@@ -5,3 +5,7 @@ image_speed = 0
 onground = false
 forceY =  0
 forceX =  0
+hpoffset = 0
+hp = 5
+hpframe = 0
+alarm[0] = 0.5 * 60
