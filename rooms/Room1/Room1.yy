@@ -30,6 +30,10 @@
     {"name":"inst_523C57D5","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_50EF4948","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5E3FDAEF","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_44B8AFC3","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_DEC00D6","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_66FBC90B","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5D0C92E6","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -63,6 +67,10 @@
         {"$GMRInstance":"v1","%Name":"inst_523C57D5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_523C57D5","objectId":{"name":"tree","path":"objects/tree/tree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.5,"scaleY":4.0,"x":1824.0,"y":1760.0,},
         {"$GMRInstance":"v1","%Name":"inst_50EF4948","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50EF4948","objectId":{"name":"tree","path":"objects/tree/tree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.5,"scaleY":4.0,"x":576.0,"y":1760.0,},
         {"$GMRInstance":"v1","%Name":"inst_5E3FDAEF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5E3FDAEF","objectId":{"name":"tree","path":"objects/tree/tree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.5,"scaleY":4.0,"x":96.0,"y":1760.0,},
+        {"$GMRInstance":"v1","%Name":"inst_44B8AFC3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_44B8AFC3","objectId":{"name":"Vine","path":"objects/Vine/Vine.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1312.0,"y":1888.0,},
+        {"$GMRInstance":"v1","%Name":"inst_DEC00D6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_DEC00D6","objectId":{"name":"Vine","path":"objects/Vine/Vine.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1632.0,"y":1856.0,},
+        {"$GMRInstance":"v1","%Name":"inst_66FBC90B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_66FBC90B","objectId":{"name":"Vine","path":"objects/Vine/Vine.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":1824.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5D0C92E6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D0C92E6","objectId":{"name":"Vine","path":"objects/Vine/Vine.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2016.0,"y":1888.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":"_filter_underwater","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
         {"name":"g_Distort1Speed","type":0,"value":"0.01",},
