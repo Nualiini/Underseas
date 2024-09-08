@@ -1,4 +1,4 @@
-if not place_meeting(x,y+accel,collisions) and not place_meeting(feet.x,feet.y+accel,platforms)   {
+if not place_meeting(x,y+accel,collisions) and not place_meeting(feet.x,feet.y,platforms)   {
 		y+=accel
 	onground = false
 	if accel < 20{
@@ -59,4 +59,9 @@ if keyboard_check(vk_anykey) and spd != 0
 if keyboard_check_pressed(vk_up)
 {
 	instance_create_layer(self.x,self.y,"instances",crab)
+}
+if place_meeting(x,y,onedamages) && iframes < 1 {
+	hp--
+	instance_create_layer(x,y,"Instances",shake)
+	iframes = 20
 }
