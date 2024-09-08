@@ -66,3 +66,9 @@ if place_meeting(x,y,onedamages) && iframes < 1 {
 	iframes = 20
 }
 if iframes > 0 {iframes--}
+if hp < 1 {
+	iframes=300
+	var _death = instance_create_layer(x,y,"Instances",death)
+	_death.depth = self.depth -1 
+	spd = 0
+}
