@@ -36,6 +36,7 @@
   "resources":[
     {"id":{"name":"attack","path":"objects/attack/attack.yy",},},
     {"id":{"name":"bubble","path":"objects/bubble/bubble.yy",},},
+    {"id":{"name":"BubleSpell","path":"objects/BubleSpell/BubleSpell.yy",},},
     {"id":{"name":"camera","path":"objects/camera/camera.yy",},},
     {"id":{"name":"coral","path":"objects/coral/coral.yy",},},
     {"id":{"name":"crab","path":"objects/crab/crab.yy",},},
@@ -53,6 +54,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"attack_spr","path":"sprites/attack_spr/attack_spr.yy",},},
     {"id":{"name":"bubble_spr","path":"sprites/bubble_spr/bubble_spr.yy",},},
+    {"id":{"name":"BubleSpell_spr","path":"sprites/BubleSpell_spr/BubleSpell_spr.yy",},},
     {"id":{"name":"coral_spr","path":"sprites/coral_spr/coral_spr.yy",},},
     {"id":{"name":"crab_spr","path":"sprites/crab_spr/crab_spr.yy",},},
     {"id":{"name":"darkness_spr","path":"sprites/darkness_spr/darkness_spr.yy",},},
