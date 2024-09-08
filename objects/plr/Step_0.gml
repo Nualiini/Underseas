@@ -1,4 +1,4 @@
-if not place_meeting(x,y+accel,collisions) and not place_meeting(x,y+accel,platforms)  {
+if not place_meeting(x,y+accel,collisions) and not place_meeting(feet.x,feet.y+accel,platforms)  {
 		y+=accel
 	onground = false
 	if accel < 20{
