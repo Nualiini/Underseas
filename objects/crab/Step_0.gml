@@ -8,6 +8,7 @@ if not place_meeting(x,y+accel,plr.collisions) {
 	onground = true
 	accel=0
 }
+
 x += spd * dir
 image_xscale = 2 * dir
 if place_meeting(x+-1*dir,y-9,plr.collisions) && not turncd {
@@ -16,6 +17,16 @@ if place_meeting(x+-1*dir,y-9,plr.collisions) && not turncd {
 }
 if turncd > 0 {
 	turncd--
+}
+if place_meeting(x,y,BubleSpell) && iframes < 1 {
+	audio_play_sound(hit_by_a_wood_230542,false,false)
+	repeat 5{
+		instance_create_layer(x,y,"Instances",bubble)
+		flash=10
+	}
+	hp-=0.5
+	iframes+=5
+
 }
 if place_meeting(x,y,attack) && iframes < 1 {
 	audio_play_sound(hit_by_a_wood_230542,false,false)
@@ -26,6 +37,7 @@ if place_meeting(x,y,attack) && iframes < 1 {
 	hp-=1
 	iframes+=30
 }
+
 if iframes > 0 {
 	iframes--
 }

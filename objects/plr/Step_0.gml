@@ -1,9 +1,11 @@
 if not place_meeting(x,y+accel,collisions) and not place_meeting(feet.x,feet.y,platforms)   {
+	if instance_exists(BubleSpell) && sprite_index == plr_spr {
+	}else {
 		y+=accel
 	onground = false
 	if accel < 20{
 	accel+=0.25
-	}
+	}}
 } else {
 	onground = true
 	accel=0
