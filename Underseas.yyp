@@ -70,6 +70,7 @@
     {"id":{"name":"feet_spr","path":"sprites/feet_spr/feet_spr.yy",},},
     {"id":{"name":"hp_spr","path":"sprites/hp_spr/hp_spr.yy",},},
     {"id":{"name":"Ivikirem_spr","path":"sprites/Ivikirem_spr/Ivikirem_spr.yy",},},
+    {"id":{"name":"npc1_spr","path":"sprites/npc1_spr/npc1_spr.yy",},},
     {"id":{"name":"plr_spr_1","path":"sprites/plr_spr_1/plr_spr_1.yy",},},
     {"id":{"name":"plr_spr","path":"sprites/plr_spr/plr_spr.yy",},},
     {"id":{"name":"seablock_spr_bg","path":"sprites/seablock_spr_bg/seablock_spr_bg.yy",},},
