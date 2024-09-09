@@ -9,9 +9,6 @@ if not place_meeting(x,y+accel,collisions) {
 	accel=0
 }
 if keyboard_check(ord("A")) or keyboard_check(ord("D")) {
-	if sprite_index == plr_spr {
-	sprite_index = plr_spr_1
-	}
 	image_speed = 2
 } else {
 	image_speed = 0
@@ -32,16 +29,17 @@ if forceY != 0 {
 	forceY++
 	}
 }
-if place_meeting(x,y,onedamages) && iframes < 1 {
-	hp--
-	iframes = 30
-	if hp < 1 {
-	iframes = 3000
-	var _death = instance_create_layer(x,y,"Instances",death)
-	_death.depth = self.depth-100
-	}
-	instance_create_layer(x,y,"Instances",shake)
+
+// BubleSpell Create
+if keyboard_check_pressed(ord("1"))
+{
+	spd = 0
+	alarm[1] = 34
+	instance_create_layer(self.x,self.y,"instances",BubleSpell)
 }
-if iframes > 0 {
-	iframes--
+
+// BubleSpell pose
+if spd = 0
+{
+	sprite_index = plr_spr
 }
