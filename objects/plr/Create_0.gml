@@ -1,4 +1,4 @@
-var _darkness =instance_create_layer(x,y,"Instances",darkness)
+var _darkness =instance_create_layer(x,y,"dialogue",darkness)
 _darkness.depth = self.depth-100
 shakefx = layer_get_fx("ShakeLayer");
 sprite_index = plr_spr

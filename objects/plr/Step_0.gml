@@ -1,19 +1,21 @@
-if not place_meeting(x,y+accel,collisions) and not place_meeting(x,y+accel,platforms)   {
-	if instance_exists(BubleSpell) && sprite_index == plr_spr {
-	}else {
-		y+=accel
-	onground = false
-	if accel < 20{
-	accel+=0.25
-	}}
-} else {
+if (!place_meeting(x, y + accel, collisions) && !position_meeting(x,y+accel, platforms)) && !position_meeting(x,y+2, platforms){
+    if (instance_exists(BubleSpell) && sprite_index == plr_spr) {
+        // Some code
+    } else {
+        y += accel;
+        onground = false;
+        if (accel < 20) {
+            accel += 0.25;
+        }
+    }
+}
+
+
+ else {
 	onground = true
 	accel=0
 }
-if place_meeting(x,y+accel,platforms)  {
-	onground = true
-	accel=0
-}
+
 if keyboard_check(ord("A")) or keyboard_check(ord("D")) {
 	image_speed = 2
 } else {
