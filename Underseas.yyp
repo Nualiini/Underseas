@@ -50,6 +50,7 @@
     {"id":{"name":"shake","path":"objects/shake/shake.yy",},},
     {"id":{"name":"tree","path":"objects/tree/tree.yy",},},
     {"id":{"name":"Vine","path":"objects/Vine/Vine.yy",},},
+    {"id":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"attack_spr","path":"sprites/attack_spr/attack_spr.yy",},},
     {"id":{"name":"bubble_spr","path":"sprites/bubble_spr/bubble_spr.yy",},},
