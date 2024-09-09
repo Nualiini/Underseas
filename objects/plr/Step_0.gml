@@ -47,3 +47,8 @@ if spd = 0
 {
 	sprite_index = plr_spr
 }
+
+if keyboard_check(vk_anykey) and spd != 0
+{
+	sprite_index = plr_spr_1
+}
