@@ -54,3 +54,9 @@ if keyboard_check(vk_anykey) and spd != 0
 {
 	sprite_index = plr_spr_1
 }
+
+// hack spawn enemy
+if keyboard_check_pressed(vk_up)
+{
+	instance_create_layer(self.x,self.y,"instances",crab)
+}
