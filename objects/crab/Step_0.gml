@@ -18,6 +18,7 @@ if turncd > 0 {
 	turncd--
 }
 if place_meeting(x,y,attack) && iframes < 1 {
+	audio_play_sound(hit_by_a_wood_230542,false,false)
 	repeat 5{
 		instance_create_layer(x,y,"Instances",bubble)
 		flash=10
@@ -32,6 +33,7 @@ if flash > 0 {
 	flash--
 }
 if hp < 1 && not dead {
+	
 	flash = 60
 	dead = true
 	spd = -0.5
@@ -40,6 +42,7 @@ if dead && flash < 1 {
 	repeat 50{
 		var _bubble = instance_create_layer(x,y,"Instances",bubble)
 		_bubble.depth = self.depth + 1
+		audio_play_sound(death_enemy_sound,false,false)
 		instance_destroy()
 
 	
