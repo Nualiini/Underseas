@@ -54,6 +54,7 @@
     {"id":{"name":"Vine","path":"objects/Vine/Vine.yy",},},
     {"id":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"boom_1_bright_attack_237005","path":"sounds/boom_1_bright_attack_237005/boom_1_bright_attack_237005.yy",},},
     {"id":{"name":"cartoon_jump_6462","path":"sounds/cartoon_jump_6462/cartoon_jump_6462.yy",},},
     {"id":{"name":"cozy_soft_rain_under_umbrella_116183","path":"sounds/cozy_soft_rain_under_umbrella_116183/cozy_soft_rain_under_umbrella_116183.yy",},},
     {"id":{"name":"sword_sound_2_36274","path":"sounds/sword_sound_2_36274/sword_sound_2_36274.yy",},},

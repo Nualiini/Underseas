@@ -37,6 +37,7 @@ if forceY != 0 {
 // BubleSpell Create
 if keyboard_check_pressed(ord("1"))
 {
+	audio_play_sound(boom_1_bright_attack_237005,false,false)
 	spd = 0
 	alarm[1] = 34
 	instance_create_layer(self.x,self.y,"instances",BubleSpell)
