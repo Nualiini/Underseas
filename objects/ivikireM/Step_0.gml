@@ -25,5 +25,6 @@ if forceY != 0 {
 	}
 }
 if place_meeting(x,y,plr) {
+	audio_play_sound(retro_coin_4_236671,false,false)
 	instance_destroy()
 }

@@ -42,7 +42,6 @@ if dead && flash < 1 {
 	repeat 50{
 		var _bubble = instance_create_layer(x,y,"Instances",bubble)
 		_bubble.depth = self.depth + 1
-		audio_play_sound(death_enemy_sound,false,false)
 		instance_destroy()
 
 	
