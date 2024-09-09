@@ -1,7 +1,7 @@
-if not place_meeting(x,y+accel,collisions) {
+if not place_meeting(x,y+accel,collisions) and not place_meeting(feet.x,feet.y+accel,platforms)  {
 		y+=accel
 	onground = false
-	if accel < 10{
+	if accel < 20{
 	accel+=0.25
 	}
 } else {
@@ -21,7 +21,11 @@ if keyboard_check(ord("A")) or keyboard_check(ord("D")) {
 }
 
 if forceY != 0 {
+	if not place_meeting(x,y+forceY,collisions) {
 	y+=forceY
+	} else {
+	forceY = 0
+	}
 	if forceY > 0 {
 	forceY--
 	}
