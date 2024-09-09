@@ -1,3 +1,3 @@
-if place_meeting(x,y+2,collisions) or place_meeting(feet.x,feet.y+accel,platforms)   {
+if place_meeting(x,y+2,collisions)    {
 forceY=-16
 	}
