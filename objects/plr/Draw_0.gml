@@ -10,3 +10,4 @@ repeat hp {
 	hpoffset++
 }
 
+draw_circle(x,y+16,1,false)

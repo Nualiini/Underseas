@@ -1,12 +1,14 @@
-if (!place_meeting(x, y + accel, collisions) && !place_meeting(x,y+accel, platforms)) {
+if (!place_meeting(x, y + accel, collisions) &&!collision_rectangle(x-4,y+6,x+4,y+16,platforms,true,true)){
     if (instance_exists(BubleSpell) && sprite_index == plr_spr) {
         // Some code
     } else {
+		if not position_meeting(x,y+accel,platforms){
         y += accel;
+		
         onground = false;
         if (accel < 20) {
             accel += 0.25;
-        }
+        }}
     }
 }
 
