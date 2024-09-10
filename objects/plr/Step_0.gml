@@ -1,4 +1,4 @@
-if (!place_meeting(x, y + accel, collisions) && !position_meeting(x,y+accel, platforms)) && !position_meeting(x,y+2, platforms){
+if (!place_meeting(x, y + accel, collisions) && !place_meeting(x,y+accel, platforms)) {
     if (instance_exists(BubleSpell) && sprite_index == plr_spr) {
         // Some code
     } else {

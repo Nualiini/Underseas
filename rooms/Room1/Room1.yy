@@ -116,6 +116,7 @@
     {"name":"inst_73FE43AD","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6F2FF713","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_88C9448","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2FAF1DE1","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -236,6 +237,7 @@
         {"$GMRInstance":"v1","%Name":"inst_73FE43AD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_73FE43AD","objectId":{"name":"flame","path":"objects/flame/flame.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":3360.0,"y":1248.0,},
         {"$GMRInstance":"v1","%Name":"inst_6F2FF713","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F2FF713","objectId":{"name":"flame","path":"objects/flame/flame.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":3424.0,"y":1248.0,},
         {"$GMRInstance":"v1","%Name":"inst_88C9448","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_88C9448","objectId":{"name":"flame","path":"objects/flame/flame.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.5,"x":3477.0,"y":1234.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2FAF1DE1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2FAF1DE1","objectId":{"name":"seablock_breakable","path":"objects/seablock_breakable/seablock_breakable.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3008.0,"y":1120.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_2DCE295F","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2DCE295F","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"spriteId":{"name":"npcHouse1_spr","path":"sprites/npcHouse1_spr/npcHouse1_spr.yy",},"x":2912.0,"y":1056.0,},

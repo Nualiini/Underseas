@@ -35,3 +35,6 @@ if dead && flash > 0 {
 	
 }
 }
+if hp < 1 && not dead{
+	dead = true
+}
