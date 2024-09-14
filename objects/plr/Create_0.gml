@@ -19,3 +19,4 @@ hpframe = 0
 alarm[0] = 0.5 * 60
 iframes = 0
 audio_play_sound(cozy_soft_rain_under_umbrella_116183,false,true)
+alarm[2] = 60

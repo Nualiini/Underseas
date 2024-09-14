@@ -15,6 +15,10 @@ if (!place_meeting(x, y + accel, collisions) &&!collision_rectangle(x-4,y+6,x+4,
 
  else {
 	onground = true
+	if not instance_exists(darkness) and not instance_exists(death) && not collision_rectangle(x-12,y-6,x+12,y+16,flame,false,false) {
+	global.safex = x
+	global.safey = y
+	}
 	accel=0
 }
 
