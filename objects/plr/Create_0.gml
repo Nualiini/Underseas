@@ -5,7 +5,7 @@ sprite_index = plr_spr
 fx_set_parameter(shakefx, "g_Magnitude", 0);
 fx_set_parameter(shakefx, "g_ShakeSpeed",0);
 platforms = [seaplatform]
-collisions = [seablock]
+collisions = [seablock,seablock_breakable]
 onedamages = [crab]
 spd = 3
 accel = 0

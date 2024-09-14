@@ -22,8 +22,9 @@ if dead && flash < 1 {
 		var _bubble = instance_create_layer(x,y,"Instances",bubble)
 		_bubble.depth = self.depth + 1
 		instance_destroy()
-
-	
+		if targetl != 0 {
+		layer_set_visible(targetl,to)
+		}
 }
 
 }
@@ -37,4 +38,10 @@ if dead && flash > 0 {
 }
 if hp < 1 && not dead{
 	dead = true
+}
+if flash > 0 {
+	flash--
+}
+if iframes > 0 {
+	iframes--
 }

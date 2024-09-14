@@ -6,3 +6,4 @@ camHeight =view_hport[view_camera[0]]
 target = plr
 xTo = x
 yTo = y 
+hpoffset = 0
