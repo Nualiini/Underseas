@@ -9,4 +9,9 @@ repeat plr.hp {
 	draw_sprite(hp_spr,plr.hpframe,camera_x+40+hpoffset*24,camera_y+40)
 	hpoffset++
 }
+hpoffset= 0
+repeat floor(plr.water) {
+	draw_sprite(hp_spr_1,plr.hpframe,camera_x+40+hpoffset*24,camera_y+40)
+	hpoffset++
+}
 

@@ -24,6 +24,9 @@ if dead && flash < 1 {
 		instance_destroy()
 		if targetl != 0 {
 		layer_set_visible(targetl,to)
+		if targetl == layer_get_id("secret") {
+			global.broken1 = true
+		}
 		}
 }
 

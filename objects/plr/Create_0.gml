@@ -6,7 +6,7 @@ fx_set_parameter(shakefx, "g_Magnitude", 0);
 fx_set_parameter(shakefx, "g_ShakeSpeed",0);
 platforms = [seaplatform]
 collisions = [seablock,seablock_breakable]
-onedamages = [crab]
+onedamages = [crab,proj1]
 spd = 3
 accel = 0
 image_speed = 0
@@ -20,3 +20,7 @@ alarm[0] = 0.5 * 60
 iframes = 0
 audio_play_sound(cozy_soft_rain_under_umbrella_116183,false,true)
 alarm[2] = 60
+water = 0
+untilheal = 0
+pressed = false
+healed = false

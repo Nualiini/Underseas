@@ -59,7 +59,7 @@ if keyboard_check_pressed(ord("1"))
 }
 
 // BubleSpell pose
-if spd = 0
+if instance_exists(BubleSpell)
 {
 	sprite_index = plr_spr
 }
@@ -76,6 +76,9 @@ if keyboard_check_pressed(vk_up)
 }
 if place_meeting(x,y,onedamages) && iframes < 1 {
 	hp--
+	if water > hp {
+	water = hp
+	}
 	instance_create_layer(x,y,"Instances",shake)
 	iframes = 20
 }

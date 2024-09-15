@@ -32,6 +32,9 @@ if place_meeting(x,y,attack) && iframes < 1 {
 		flash=10
 	}
 	hp-=1
+	if plr.hp > plr.water {
+	plr.water+=0.5
+	}
 	iframes+=30
 }
 
