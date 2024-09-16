@@ -1,3 +1,3 @@
-if global.gotkey == true {
+if global.extinct[$uuid] {
 	instance_destroy()
 }

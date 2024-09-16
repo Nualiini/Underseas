@@ -1,0 +1,1 @@
+global.gotkey1 = 3

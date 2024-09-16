@@ -15,7 +15,7 @@ if (!place_meeting(x, y + accel, collisions) &&!collision_rectangle(x-4,y+6,x+4,
 
  else {
 	onground = true
-	if not instance_exists(darkness) and not instance_exists(death) && not collision_rectangle(x-12,y-6,x+12,y+16,flame,false,false) {
+	if not instance_exists(darkness) and not instance_exists(death) && not collision_rectangle(x-12,y-6,x+12,y+16,flame,false,false) && not place_meeting(x,y,nospawn) {
 	global.safex = x
 	global.safey = y
 	}
@@ -80,7 +80,7 @@ if place_meeting(x,y,onedamages) && iframes < 1 {
 	water = hp
 	}
 	instance_create_layer(x,y,"Instances",shake)
-	iframes = 20
+	iframes = 40
 }
 if iframes > 0 {iframes--}
 if hp < 1 {
@@ -88,4 +88,14 @@ if hp < 1 {
 	var _death = instance_create_layer(x,y,"dialogue",death)
 	_death.depth = self.depth -1 
 	spd = 0
+}
+if place_meeting(x,y,hazards) {
+hp--
+instance_create_layer(x,y,"Instances",shake)
+image_alpha = 0
+x = global.safex
+y = global.safey
+}
+if image_alpha < 1 {
+	image_alpha+=0.02
 }

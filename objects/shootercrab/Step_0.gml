@@ -73,7 +73,7 @@ if dead && flash > 0 {
 if  not aggro && not floor(image_index) == 0 {
 	image_speed = 0
 } else {
-		image_speed = 1
+		image_speed = 0.3
 }
 if image_index > 5 && image_index < 5.5 {
 	instance_create_layer(x,y,"Instances",proj1)

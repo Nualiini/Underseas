@@ -1,4 +1,5 @@
 global.safex = x
 global.safey = y
 
-global.gotkey = false
+global.gotkey1 = 0
+global.extinct = {}

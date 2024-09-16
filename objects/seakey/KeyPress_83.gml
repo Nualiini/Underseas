@@ -6,5 +6,11 @@ with speech {
 
 }
 instance_destroy()
-global.gotkey = true
+
+	global.extinct[$uuid] = true
+
+	
+
+global.gotkey1 += 1
 }
+
