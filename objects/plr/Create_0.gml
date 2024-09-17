@@ -6,7 +6,7 @@ fx_set_parameter(shakefx, "g_Magnitude", 0);
 fx_set_parameter(shakefx, "g_ShakeSpeed",0);
 platforms = [seaplatform]
 collisions = [seablock,seablock_breakable,door1]
-onedamages = [crab,proj1]
+onedamages = [crab,proj1,Rainius]
 spd = 3
 accel = 0
 image_speed = 0

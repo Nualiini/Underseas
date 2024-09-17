@@ -1,0 +1,1 @@
+global.npc2spokento = false
