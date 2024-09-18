@@ -39,7 +39,28 @@ if dead && flash > 0 {
 	repeat 5{
 		instance_create_layer(x,y,"Instances",bubble)
 		var _bubble = instance_create_layer(x,y,"Instances",bubble)
+				instance_create_layer(x,y,"Instances",shake)
 		_bubble.depth = self.depth - 1
 	
 }
+}
+if fall {
+	y+=16
+	if y > 3568 {
+		fall = false
+		instance_create_layer(x,y,"Instances",shake)
+
+		y = ogy
+	}
+}
+
+if tofall {
+	image_alpha-=0.01
+	if image_alpha < 0 {
+		y = 3184
+		x = plr.x
+		image_alpha = 1
+		fall = true
+		tofall = false
+	}
 }

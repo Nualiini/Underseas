@@ -9,6 +9,8 @@ with speech {
 	dial[4] = "*Received Key*"
 }
 global.gotkey1 +=1
+global.npc2spokento = true
+}
 {
   var speech1 = instance_create_layer(x,y,"dialogue",dialogue)
 with speech1 {
@@ -16,4 +18,4 @@ with speech1 {
 	dial[1] = "Does the village stand.."
 	dial[2] = "Lord have mercy, Yelah we are sorry."
 }}
-}}
+}
