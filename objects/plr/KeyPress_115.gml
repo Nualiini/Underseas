@@ -1,0 +1,1 @@
+global.spell1 = true
