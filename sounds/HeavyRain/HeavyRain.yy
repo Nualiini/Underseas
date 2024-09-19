@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Final_Blue",
+  "%Name":"HeavyRain",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":17.528164,
-  "name":"Final_Blue",
+  "name":"HeavyRain",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Final_Blue.mp3",
+  "soundFile":"HeavyRain.mp3",
   "type":0,
-  "volume":0.2,
+  "volume":0.25,
 }

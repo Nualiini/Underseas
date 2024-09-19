@@ -10,8 +10,8 @@ with speech {
 }
 global.gotkey1 +=1
 global.npc2spokento = true
-}
-{
+} else {
+
   var speech1 = instance_create_layer(x,y,"dialogue",dialogue)
 with speech1 {
 	dial[0] = "The ripples.."

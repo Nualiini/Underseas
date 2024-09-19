@@ -25,3 +25,4 @@ untilheal = 0
 pressed = false
 healed = false
 hazards = [flame]
+dmg = false

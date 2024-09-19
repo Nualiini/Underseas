@@ -49,7 +49,7 @@ if forceY != 0 {
 }
 
 // BubleSpell Create
-if keyboard_check_pressed(ord("1"))
+if keyboard_check_pressed(ord("1")) && global.spell1
 {
 	audio_play_sound(boom_1_bright_attack_237005,false,false)
 	spd = 0
@@ -98,4 +98,15 @@ y = global.safey
 }
 if image_alpha < 1 {
 	image_alpha+=0.02
+}
+if dmg && iframes < 1 {
+	hp--
+	if water > hp {
+	water = hp
+	}
+	instance_create_layer(x,y,"Instances",shake)
+	iframes = 40
+}
+if dmg {
+	dmg = false
 }

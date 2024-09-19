@@ -28,6 +28,7 @@ if dead && flash < 1 {
 		var _bubble = instance_create_layer(x,y,"Instances",bubble)
 		_bubble.depth = self.depth + 1
 		instance_destroy()
+		instance_create_layer(x,y,"Instances",spell1)
 
 	
 }
